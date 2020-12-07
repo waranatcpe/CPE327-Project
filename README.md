@@ -49,6 +49,7 @@ http://localhost:8888 or http://ipAddr:8888<br/>
    You can register on register page and then use admin user for change role to department at menu `จัดการผู้ใช้งาน` and then set department to user for view information at menu `จัดการภาควิชา` before sign-in with Department role
 
 ## Reverse Proxy with nginx and SSL Certificate 
+### Reverse Proxy with nginx
 - if you want to publish to port 80 you can install nginx for publish<br/>
    $ `sudo apt install -y nginx` <br/>
 - Change virtualhost file and use reverse proxy<br/>
@@ -90,4 +91,11 @@ change by editing your web server's configuration.
 - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
 Select the appropriate number [1-2] then [enter] (press 'c' to cancel):
 ```
-Select your choice then hit `ENTER.` The configuration will be updated, and Nginx will reload to pick up the new settings. `certbot` will wrap up with a message telling you the process was successful and where your certificates are stored:
+Select your choice then hit `ENTER.` The configuration will be updated, and Nginx will reload to pick up the new settings. `certbot` will wrap up with a message telling you the process was successful and where your certificates are stored:<br/>
+
+- And then go to web site with SSL Certificate <br/>
+   https://[your-domainName.com]
+   
+   
+   
+`waranat.stk@mail.kmutt.ac.th`
