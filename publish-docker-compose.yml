@@ -34,7 +34,7 @@ services:
        - ./mysql-data:/var/lib/mysql
        - ./database/dump.sql:/docker-entrypoint-initdb.d/dump.sql
       environment:
-       MYSQL_ROOT_PASSWORD: 'ARadmission@2020'
+       MYSQL_ROOT_PASSWORD: 'password1234'
        MYSQL_DATABASE: aradmission
       expose:
        - "3306"
