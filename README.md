@@ -1,5 +1,6 @@
-# CPE327-Project
+
 ## Active Recruitment Registration System KMUTT
+CPE327 | Software Engineering Project
 
 1. Install Docker<br/>
 $ `apt update` <br/>
@@ -29,14 +30,14 @@ $ `cp ./envfile ./src/.env`<br/>
 http://your-ipAddress:8888<br/>
 
 ## User for Test
-`Admin`
+`Admin`<br/>
 Username : admin <br/>
 Password : Admin@2020 <br/>
 
-`Student`
+`Student`<br/>
 Username : 1234567890123 <br/>
 Password : Student@2020 <br/>
 
-`Department`
+`Department`<br/>
 Username : cpekmutt <br/>
 Password : CPE@kmutt <br/>
