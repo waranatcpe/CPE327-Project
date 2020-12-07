@@ -1,5 +1,5 @@
 
-## Active Recruitment Registration System KMUTT
+## Active-Recruitment Registration System KMUTT
 CPE327 | Software Engineering Project <br/>
 <b>DEMO : https://admission.kmutt.me</b><br/>
 
