@@ -120,5 +120,4 @@ Select your choice then hit `ENTER.` The configuration will be updated, and Ngin
 | 3. | CHINNAGRIT BUTBUMRUNG | 61070501016 | chinnagrit.bt@mail.kmutt.ac.th | A |
 | 4. | WARANAT SUTTIKARN | 61070501048 | waranat.stk@mail.kmutt.ac.th | B |
 
-<hr>
 ` Write up by WARANAT SUTTIKARN {Software Developer@Admissions and Recruitment Office KMUTT}`
