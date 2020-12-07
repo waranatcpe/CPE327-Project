@@ -62,5 +62,5 @@ server {
 - And reload nginx <br/>
    $ `nginx -t && nginx -s reload` <br/>
 - Open website<br/>
-   http://your-ipAddress<br/>
+   http://your-domainName<br/>
 
