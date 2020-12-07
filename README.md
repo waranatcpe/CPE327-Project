@@ -4,12 +4,12 @@ CPE327 | Software Engineering Project <br/>
 <b>DEMO : https://admission.kmutt.me</b><br/>
 
 ### Server/Virtual Machine Specification 
-| Requirement | Specification |
-| :---: | :---: |
-| Operating System | Ubuntu 18.04 or above|
-| vCPUs | 2 cores or above|
-| RAM | 2 GB or above |
-| Storage Disk | 10GB or above |
+| No. | Requirement | Specification |
+| :---: | :---: | :---: |
+| 1. | Operating System | Ubuntu 18.04 or above|
+| 2. | vCPUs | 2 cores or above|
+| 3. | RAM | 2 GB or above |
+| 4. | Storage Disk | 10GB or above |
 
 - ``` If you use Docker Desktop in windows you can start at step 3 ```
 
