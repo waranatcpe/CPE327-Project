@@ -36,15 +36,15 @@ if error occurred about permission. You can run this command `chmod +x ./deploym
 http://localhost:8888 or http://ipAddr:8888<br/>
 
 ## User for Test
-`Admin`<br/>
-Username : admin <br/>
-Password : Admin@2020 <br/>
+- `Admin`<br/>
+   Username : admin <br/>
+   Password : Admin@2020 <br/>
 
-`Student`<br/>
-You can register on register page<br/>
+- `Student`<br/>
+   You can register on register page<br/>
 
-`Department`<br/>
-You can register on register page and then use admin user for change role to department
+- `Department`<br/>
+   You can register on register page and then use admin user for change role to department
 
 ## Reverse Proxy with nginx
 - if you want to publish to port 80 you can install nginx for publish<br/>
