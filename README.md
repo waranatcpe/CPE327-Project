@@ -50,7 +50,6 @@ And then clean this file and use this config code instead<br/>
 `
 server {
     server_name your-domainName.com;
-
     location / {
         proxy_pass http://localhost:8888;
         proxy_set_header Host $host;
@@ -59,7 +58,8 @@ server {
         proxy_set_header X-Forwarded-Proto $scheme;
     }
 }
-` <br/>
+`
+<br/>
 And reload nginx <br/>
    $ `nginx -t && nginx -s reload` <br/>
 Open website<br/>
