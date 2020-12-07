@@ -48,16 +48,16 @@ Change virtualhost file and use reverse proxy<br/>
    $ `nano /etc/nginx/sites-available/default `<br/>
 And then clean this file and use this config code instead<br/>
 ``
-server {
-    server_name your-domainName.com;
-    location / {
-        proxy_pass http://localhost:8888;
-        proxy_set_header Host $host;
-        proxy_set_header X-Real-IP $remote_addr;
-        proxy_set_header X-Forwarded-For $proxy_add_x_forwarded_for;
-        proxy_set_header X-Forwarded-Proto $scheme;
-    }
-}
+server { \
+    server_name your-domainName.com; \
+    location / { \
+        proxy_pass http://localhost:8888; \
+        proxy_set_header Host $host; \
+        proxy_set_header X-Real-IP $remote_addr; \
+        proxy_set_header X-Forwarded-For $proxy_add_x_forwarded_for; \
+        proxy_set_header X-Forwarded-Proto $scheme; \
+    } \
+} \
 ``
 <br/>
 And reload nginx <br/>
