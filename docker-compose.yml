@@ -1,0 +1,51 @@
+version: '3'
+
+services:
+    site:
+      build:
+       context: .
+       dockerfile: nginx.dockerfile
+      container_name: nginx
+      restart: always
+      ports:
+       - "8888:80"
+      volumes:
+       - ./src:/var/www/html:delegated
+      depends_on:
+       - php
+       - ar_db
+
+    php:
+     build:
+       context: .
+       dockerfile: php.dockerfile
+     container_name: php
+     restart: always
+     volumes:
+       - ./src:/var/www/html:delegated
+     expose:
+       - "9000"
+   
+    ar_db:
+      image: mysql:8.0
+      container_name: AR_DATABASE
+      restart: always
+      volumes:
+       - ./mysql-data:/var/lib/mysql
+       - ./database/dump.sql:/docker-entrypoint-initdb.d/dump.sql
+      environment:
+       MYSQL_ROOT_PASSWORD: 'ARadmission@2020'
+       MYSQL_DATABASE: aradmission
+      expose:
+       - "3306"
+
+    AR_PMA:
+      depends_on:
+       - ar_db
+      image: phpmyadmin/phpmyadmin
+      container_name: AR_PMA
+      restart: always
+      ports:
+       - '8081:80'
+      environment:
+        PMA_HOST: ar_db

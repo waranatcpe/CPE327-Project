@@ -1,0 +1,33 @@
+{
+    "name": "inspector-apm/inspector-php",
+    "description": "Inspector for PHP applications.",
+    "keywords": ["monitoring", "php", "inspector"],
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Valerio Barbera",
+            "email": "valerio@inspector.dev"
+        }
+    ],
+    "require": {
+        "php": ">=7.2"
+    },
+    "autoload": {
+        "psr-4": {
+            "Inspector\\": "src/"
+        }
+    },
+    "config": {
+        "preferred-install": "dist"
+    },
+    "minimum-stability": "dev",
+    "prefer-stable": true,
+    "require-dev": {
+        "phpunit/phpunit": "^8.0"
+    },
+    "autoload-dev": {
+        "psr-4": {
+            "Inspector\\Tests\\": "tests/"
+        }
+    }
+}
