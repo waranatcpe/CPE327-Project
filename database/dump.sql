@@ -273,7 +273,7 @@ CREATE TABLE `users` (
 --
 
 INSERT INTO `users` (`id`, `prefix`, `name`, `lastname`, `username`, `email`, `email_verified_at`, `password`, `type`, `remember_token`, `created_at`, `updated_at`) VALUES
-(1, 'นาย', 'วราณัฐ', 'สุทธิการณ์', 'admin', 'waranat.cpe@gmail.com', NULL, '$2y$10$g10DrkrrAy49Lu6iEso/mu/MVHEr5ZZiFWHh2ipIj0QwTmPTujDRa', 1, 'lBl6Sqyzm2Zq57szio0xQpbEfWIfv2bQe2RFCVD23k4AyIZPRUTNXRMmbji1', '2020-07-26 02:21:59', '2020-11-16 10:29:41');
+(1, 'นาย', 'วราณัฐ', 'สุทธิการณ์', 'admin', 'admin@gmail.com', NULL, '$2y$10$FnkwUGcaGmySxhgvD.ngteod.pIbmP3hFMwHFgp84g03TJyJyiZ36', 1, 'lBl6Sqyzm2Zq57szio0xQpbEfWIfv2bQe2RFCVD23k4AyIZPRUTNXRMmbji1', '2020-07-26 02:21:59', '2020-11-16 10:29:41');
 
 -- --------------------------------------------------------
 
