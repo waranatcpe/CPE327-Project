@@ -13,9 +13,9 @@ CPE327 | Software Engineering Project <br/>
 | Storage Disk | >= 10GB |
 
 1. Install Docker<br/>
-$ `apt update` <br/>
-$ `apt install -y docker.io` <br/>
-$ `apt install -y docker-compose` <br/>
+$ `sudo apt update` <br/>
+$ `sudo apt install -y docker.io` <br/>
+$ `sudo apt install -y docker-compose` <br/>
 
 2. Make Directory for deployment<br/>
 $ `mkdir /public && cd /public` <br/>
@@ -31,7 +31,7 @@ $ `cd /public/CPE327-Project`<br/>
 $ `ls ./deployment.sh`<br/>
 
 6. Deployment<br/>
-$ `sh ./deployment.sh`<br/>
+$ `sudo sh ./deployment.sh`<br/>
 if error occurred about permission. You can run this command `chmod +x ./deployment.sh` and run this command again `./deployment.sh` <br/>
 
 7. Open website<br/>
@@ -48,11 +48,11 @@ http://localhost:8888 or http://ipAddr:8888<br/>
 - `Department`<br/>
    You can register on register page and then use admin user for change role to department at menu `จัดการผู้ใช้งาน` and then set department to user for view information at menu `จัดการภาควิชา` before sign-in with Department role
 
-## Reverse Proxy with nginx
+## Reverse Proxy with nginx and SSL Certificate 
 - if you want to publish to port 80 you can install nginx for publish<br/>
-   $ `apt install -y nginx` <br/>
+   $ `sudo apt install -y nginx` <br/>
 - Change virtualhost file and use reverse proxy<br/>
-   $ `nano /etc/nginx/sites-available/default `<br/>
+   $ `sudo nano /etc/nginx/sites-available/default `<br/>
 - And then clean this file and use this config code instead<br/>
 ```
 server { 
@@ -67,7 +67,27 @@ server {
 } 
 ```
 - And reload nginx <br/>
-   $ `nginx -t && nginx -s reload` <br/>
+   $ `sudo nginx -t && sudo nginx -s reload` <br/>
 - Open website<br/>
    http://your-domainName<br/>
-
+   
+### SSL Certification
+- Installing Certbot <br/>
+   $ `sudo apt install certbot python3-certbot-nginx` <br/>
+- Obtaining an SSL Certificate<br/>
+   $ `sudo certbot --nginx -d [your-domainName.com]`<br/>
+This runs certbot with the --nginx plugin, using -d to specify the domain names we’d like the certificate to be valid for.<br/>
+If this is your first time running certbot, you will be prompted to enter an email address and agree to the terms of service. After doing so, certbot will communicate with the Let’s Encrypt server, then run a challenge to verify that you control the domain you’re requesting a certificate for.<br/>
+If that’s successful, certbot will ask how you’d like to configure your HTTPS settings.<br/>
+```
+Output
+Please choose whether or not to redirect HTTP traffic to HTTPS, removing HTTP access.
+- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+1: No redirect - Make no further changes to the webserver configuration.
+2: Redirect - Make all requests redirect to secure HTTPS access. Choose this for
+new sites, or if you're confident your site works on HTTPS. You can undo this
+change by editing your web server's configuration.
+- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+Select the appropriate number [1-2] then [enter] (press 'c' to cancel):
+```
+Select your choice then hit `ENTER.` The configuration will be updated, and Nginx will reload to pick up the new settings. `certbot` will wrap up with a message telling you the process was successful and where your certificates are stored:
