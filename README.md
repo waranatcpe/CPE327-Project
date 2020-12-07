@@ -42,11 +42,11 @@ You can register on register page<br/>
 You can register on register page and then use admin user for change role to department
 
 ## Reverse Proxy with nginx
-if you want to publish to port 80 you can install nginx for publish<br/>
+- if you want to publish to port 80 you can install nginx for publish<br/>
    $ `apt install -y nginx` <br/>
-Change virtualhost file and use reverse proxy<br/>
+- Change virtualhost file and use reverse proxy<br/>
    $ `nano /etc/nginx/sites-available/default `<br/>
-And then clean this file and use this config code instead<br/>
+- And then clean this file and use this config code instead<br/>
 ```
 server { 
     server_name your-domainName.com; 
@@ -59,9 +59,8 @@ server {
     } 
 } 
 ```
-<br/>
-And reload nginx <br/>
+- And reload nginx <br/>
    $ `nginx -t && nginx -s reload` <br/>
-Open website<br/>
+- Open website<br/>
    http://<your-ipAddress><br/>
 
