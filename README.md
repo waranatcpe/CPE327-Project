@@ -6,10 +6,10 @@ CPE327 | Software Engineering Project <br/>
 ### Cloud Specification 
 | Requirement | Specification |
 | :---: | :---: |
-| Operating System | Ubuntu 20.04 |
-| vCPUs | >= 2 cores |
-| RAM | >= 2 GB |
-| Storage Disk | >= 10GB |
+| Operating System | Ubuntu 18.04 or above|
+| vCPUs | 2 cores or above|
+| RAM | 2 GB or above |
+| Storage Disk | 10GB or above |
 
 - ``` If you use Docker Desktop in windows you can start at step 2 ```
 
@@ -19,17 +19,17 @@ $ `sudo apt install -y docker.io` <br/>
 $ `sudo apt install -y docker-compose` <br/>
 
 2. Make Directory for deployment<br/>
-$ `mkdir /public && cd /public` <br/>
+$ `sudo mkdir /public && cd /public` <br/>
 if you use Docker Desktop in windows. You must set your own path. Ex `mkdir C://[your_path]` and `cd [yourpath]`
 
 3. Clone GitHub repository <br/>
 $ `git clone https://github.com/waranatcpe/CPE327-Project`<br/>
 
 4. Access repository<br/>
-$ `cd /public/CPE327-Project`<br/>
+$ `cd /public/CPE327-Project` or `cd {path}/CPE327-Project`<br/>
 
 5. Check deployment file <br/>
-$ `ls ./deployment.sh`<br/>
+$ `ls ./deployment.sh` if exsits will show `deployment.sh`<br/> 
 
 6. Deployment<br/>
 $ `sudo sh ./deployment.sh`<br/>
