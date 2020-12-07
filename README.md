@@ -46,7 +46,7 @@ http://localhost:8888 or http://ipAddr:8888<br/>
    You can register on register page<br/>
 
 - `Department`<br/>
-   You can register on register page and then use admin user for change role to department at menu "จัดการผู้ใช้งาน"
+   You can register on register page and then use admin user for change role to department at menu `จัดการผู้ใช้งาน` and then set department to user for view information at menu `จัดการภาควิชา` before sign-in with Department role
 
 ## Reverse Proxy with nginx
 - if you want to publish to port 80 you can install nginx for publish<br/>
