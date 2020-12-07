@@ -3,7 +3,7 @@
 CPE327 | Software Engineering Project <br/>
 <b>DEMO : https://admission.kmutt.me</b><br/>
 
-``` If you use Docker you can start at step 2 ```
+``` If you use Docker in windows you can start at step 2 ```
 
 | Requirement | Value |
 | :---: | :---: |
@@ -19,6 +19,7 @@ $ `apt install -y docker-compose` <br/>
 
 2. Make Directory for deployment<br/>
 $ `mkdir /public && cd /public` <br/>
+if you use Docker Desktop in windows. You must set your own path. Ex `mkdir C://[your_path]` and `cd [yourpath]`
 
 3. Clone GitHub repository <br/>
 $ `git clone https://github.com/waranatcpe/CPE327-Project`<br/>
