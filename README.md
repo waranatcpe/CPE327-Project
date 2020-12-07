@@ -27,3 +27,16 @@ $ `cp ./envfile ./src/.env`<br/>
 
 8. Open website<br/>
 http://your-ipAddress:8888<br/>
+
+## User for Test
+`Admin`
+Username : admin <br/>
+Password : Admin@2020 <br/>
+
+`Student`
+Username : 1234567890123 <br/>
+Password : Student@2020 <br/>
+
+`Department`
+Username : cpekmutt <br/>
+Password : CPE@kmutt <br/>
