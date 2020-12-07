@@ -42,7 +42,16 @@ if error occurred about permission. You can run this command `chmod +x ./deploym
 7. Open website<br/>
 http://localhost:8888 or http://ipAddr:8888<br/>
 
-## User for Test
+#### How to manage container with Docker
+- Stop all service<br/>
+  $ `cd {path}/CPE327-Project` Go to path CPE327-Project that cloned<br/>
+  $ `docker-compose down`<br/>
+- Start all service (Deployment by step required)<br/>
+  $ `docker-compose up -d`<br/>
+- Configure Container<br/>
+  $ `docker exec -it {ContainerName} sh` <br/>
+
+## Users for Test
 - `Admin`<br/>
    Username : <i>admin</i> <br/>
    Password : <i>Admin@2020</i> <br/>
