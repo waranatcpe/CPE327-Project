@@ -19,7 +19,7 @@ $ `cd /public/CPE327-Project`<br/>
 $ `ls ./deployment.sh`<br/>
 
 6. Deployment<br/>
-$ `sh ./deployment.sh`br/>
+$ `sh ./deployment.sh`<br/>
 if error occurred about permission. You can run this command `chmod +x ./deployment.sh` and run this command again `./deployment.sh` <br/>
 
 7. Create environment file for laravel<br/>
