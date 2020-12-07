@@ -47,18 +47,18 @@ if you want to publish to port 80 you can install nginx for publish<br/>
 Change virtualhost file and use reverse proxy<br/>
    $ `nano /etc/nginx/sites-available/default `<br/>
 And then clean this file and use this config code instead<br/>
-`
-server {<br/>
-    server_name your-domainName.com;<br/>
-    location / {<br/>
-        proxy_pass http://localhost:8888;<br/>
-        proxy_set_header Host $host;<br/>
-        proxy_set_header X-Real-IP $remote_addr;<br/>
-        proxy_set_header X-Forwarded-For $proxy_add_x_forwarded_for;<br/>
-        proxy_set_header X-Forwarded-Proto $scheme;<br/>
-    }<br/>
-}<br/>
-`
+``
+server {
+    server_name your-domainName.com;
+    location / {
+        proxy_pass http://localhost:8888;
+        proxy_set_header Host $host;
+        proxy_set_header X-Real-IP $remote_addr;
+        proxy_set_header X-Forwarded-For $proxy_add_x_forwarded_for;
+        proxy_set_header X-Forwarded-Proto $scheme;
+    }
+}
+``
 <br/>
 And reload nginx <br/>
    $ `nginx -t && nginx -s reload` <br/>
