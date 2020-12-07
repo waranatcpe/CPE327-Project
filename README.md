@@ -3,7 +3,7 @@
 CPE327 | Software Engineering Project <br/>
 <b>DEMO : https://admission.kmutt.me</b><br/>
 
-### Cloud Specification 
+### Server/Virtual Machine Specification 
 | Requirement | Specification |
 | :---: | :---: |
 | Operating System | Ubuntu 18.04 or above|
