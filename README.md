@@ -20,7 +20,7 @@ $ `sudo apt install -y docker-compose` <br/>
 
 2. <b>Make Directory for deployment</b><br/>
 $ `sudo mkdir /public && cd /public` <br/>
-if you use Docker Desktop in windows. You must set your own path. Ex `mkdir C://[your_path]` and `cd [yourpath]`
+if you use Docker Desktop in windows. You must set your own path. Ex `mkdir C://{your_path}` and `cd {yourpath}`
 
 3. <b>Clone GitHub repository </b><br/>
 $ `sudo git clone https://github.com/waranatcpe/CPE327-Project`<br/>
@@ -40,7 +40,7 @@ if error occurred about permission. You can run this command `chmod +x ./deploym
 - and then change owner for access file with `docker exec php chown -R laravel:laravel /var/www/html`  <br/>
 
 7. <b>Open web site</b><br/>
-http://localhost:8888 or http://ipAddr:8888<br/>
+http://localhost:8888 or http://{ipAddress}:8888<br/>
 
 #### How to manage container with Docker
 - Stop all service<br/>
@@ -84,7 +84,7 @@ server {
 - And reload nginx <br/>
    $ `sudo nginx -t && sudo nginx -s reload` <br/>
 - Open website<br/>
-   http://your-domainName<br/>
+   http://{your-domainName.com}<br/>
    
 ### SSL Certification
 - Installing Certbot <br/>
@@ -108,7 +108,7 @@ Select the appropriate number [1-2] then [enter] (press 'c' to cancel):
 Select your choice then hit `ENTER.` The configuration will be updated, and Nginx will reload to pick up the new settings. `certbot` will wrap up with a message telling you the process was successful and where your certificates are stored:<br/>
 
 - And then go to web site with SSL Certificate <br/>
-   https://your-domainName.com
+   https://{your-domainName.com}
    
 
 ## Group Members
