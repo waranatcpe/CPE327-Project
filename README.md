@@ -3,14 +3,15 @@
 CPE327 | Software Engineering Project <br/>
 <b>DEMO : https://admission.kmutt.me</b><br/>
 
-- ``` If you use Docker Desktop in windows you can start at step 2 ```
-
+Cloud Platform [Specification]
 | Requirement | Value |
 | :---: | :---: |
 | Operating System | Ubuntu 20.04 |
 | vCPUs | >= 2 cores |
 | RAM | >= 2 GB |
 | Storage Disk | >= 10GB |
+
+- ``` If you use Docker Desktop in windows you can start at step 2 ```
 
 1. Install Docker<br/>
 $ `sudo apt update` <br/>
