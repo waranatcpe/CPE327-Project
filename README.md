@@ -39,8 +39,8 @@ http://localhost:8888 or http://ipAddr:8888<br/>
 
 ## User for Test
 - `Admin`<br/>
-   Username : admin <br/>
-   Password : Admin@2020 <br/>
+   Username : <i>admin</i> <br/>
+   Password : <i>Admin@2020</i> <br/>
 
 - `Student`<br/>
    You can register on register page<br/>
