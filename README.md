@@ -49,7 +49,7 @@ Change virtualhost file and use reverse proxy<br/>
 And then clean this file and use this config code instead<br/>
 `
 server {
-    server_name <your-domainName>;
+    server_name your-domainName.com;
 
     location / {
         proxy_pass http://localhost:8888;
