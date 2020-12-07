@@ -12,5 +12,8 @@ Active Recruitment System
 sh ./deployment.sh <br/>
 *if error you should run command following below chmod +x ./deployment.sh*
 
-5. Open web site <br/>
+5.copy env file to src<br/>
+*cp envfile ./src/.env*
+
+6. Open web site <br/>
 http://your-ip:8888
