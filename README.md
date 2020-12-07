@@ -5,7 +5,7 @@ CPE327 | Software Engineering Project <br/>
 
 ### Server/Virtual Machine Specification 
 | No. | Requirement | Specification |
-| :---: | :---: | :---: |
+| :---: | :--- | ---: |
 | 1. | Operating System | Ubuntu 18.04 or above |
 | 2. | vCPUs | >= 2 cores|
 | 3. | RAM | >= 2 GB |
