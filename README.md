@@ -34,7 +34,7 @@ $ `ls ./deployment.sh` if exsits will show `deployment.sh`<br/>
 6. Deployment<br/>
 $ `sudo sh ./deployment.sh`<br/>
 if error occurred about permission. You can run this command `chmod +x ./deployment.sh` and run this command again `./deployment.sh` <br/>
-if you use Docker desktop in windows or error occurred you can deployment with manual way. 
+### if you use Docker desktop in windows or error occurred you can deployment with manual way. 
 - Follow this command `docker-compose up -d` 
 - and then copy environment file for laravel `cp ./.env-example ./src/.env` 
 - and then change owner for access file with `docker exec php chown -R laravel:laravel /var/www/html`  <br/>
