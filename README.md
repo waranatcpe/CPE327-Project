@@ -94,8 +94,10 @@ Select the appropriate number [1-2] then [enter] (press 'c' to cancel):
 Select your choice then hit `ENTER.` The configuration will be updated, and Nginx will reload to pick up the new settings. `certbot` will wrap up with a message telling you the process was successful and where your certificates are stored:<br/>
 
 - And then go to web site with SSL Certificate <br/>
-   https://[your-domainName.com]
+   https://your-domainName.com
    
    
-   
-`waranat.stk@mail.kmutt.ac.th`
+```
+ write up by 
+- waranat.stk@mail.kmutt.ac.th
+```
