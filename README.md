@@ -13,25 +13,25 @@ CPE327 | Software Engineering Project <br/>
 
 - ``` If you use Docker Desktop in windows you can start at step 3 ```
 
-1. Install Docker<br/>
+1. <b>Install Docker</b><br/>
 $ `sudo apt update` <br/>
 $ `sudo apt install -y docker.io` <br/>
 $ `sudo apt install -y docker-compose` <br/>
 
-2. Make Directory for deployment<br/>
+2. <b>Make Directory for deployment</b><br/>
 $ `sudo mkdir /public && cd /public` <br/>
 if you use Docker Desktop in windows. You must set your own path. Ex `mkdir C://[your_path]` and `cd [yourpath]`
 
-3. Clone GitHub repository <br/>
+3. <b>Clone GitHub repository </b><br/>
 $ `sudo git clone https://github.com/waranatcpe/CPE327-Project`<br/>
 
-4. Access repository<br/>
+4. <b>Access repository</b><br/>
 $ `cd /public/CPE327-Project` or `cd {path}/CPE327-Project`<br/>
 
-5. Check deployment file <br/>
+5. <b>Check deployment file </b><br/>
 $ `ls ./deployment.sh` if exsits will show `deployment.sh`<br/> 
 
-6. Deployment<br/>
+6. <b>Deployment</b><br/>
 $ `sudo sh ./deployment.sh`<br/>
 if error occurred about permission. You can run this command `chmod +x ./deployment.sh` and run this command again `./deployment.sh` <br/>
 #### if you use Docker desktop in windows or error occurred you can deployment with manual way. 
@@ -39,7 +39,7 @@ if error occurred about permission. You can run this command `chmod +x ./deploym
 - and then copy environment file for laravel `cp ./.env-example ./src/.env` 
 - and then change owner for access file with `docker exec php chown -R laravel:laravel /var/www/html`  <br/>
 
-7. Open website<br/>
+7. <b>Open web site</b><br/>
 http://localhost:8888 or http://ipAddr:8888<br/>
 
 #### How to manage container with Docker
