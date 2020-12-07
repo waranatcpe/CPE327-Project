@@ -39,4 +39,4 @@ Password : Admin@2020 <br/>
 You can register on register page<br/>
 
 `Department`<br/>
-You can register on register page and then use admin user for chang role to department
+You can register on register page and then use admin user for change role to department
