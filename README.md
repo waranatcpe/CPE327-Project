@@ -23,7 +23,7 @@ $ `sudo mkdir /public && cd /public` <br/>
 if you use Docker Desktop in windows. You must set your own path. Ex `mkdir C://[your_path]` and `cd [yourpath]`
 
 3. Clone GitHub repository <br/>
-$ `git clone https://github.com/waranatcpe/CPE327-Project`<br/>
+$ `sudo git clone https://github.com/waranatcpe/CPE327-Project`<br/>
 
 4. Access repository<br/>
 $ `cd /public/CPE327-Project` or `cd {path}/CPE327-Project`<br/>
