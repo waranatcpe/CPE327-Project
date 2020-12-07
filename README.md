@@ -36,9 +36,7 @@ Username : admin <br/>
 Password : Admin@2020 <br/>
 
 `Student`<br/>
-Username : 1234567890123 <br/>
-Password : Student@2020 <br/>
+You can register on register page<br/>
 
 `Department`<br/>
-Username : cpekmutt <br/>
-Password : CPE@kmutt <br/>
+You can register on register page and then use admin user for chang role to department
