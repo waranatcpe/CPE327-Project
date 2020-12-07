@@ -43,12 +43,12 @@ if error occurred about permission. You can run this command `chmod +x ./deploym
 http://localhost:8888 or http://{ipAddress}:8888<br/>
 
 #### How to manage container with Docker
-- Stop all service<br/>
+- <b>Stop all service</b><br/>
   $ `cd {path}/CPE327-Project` Go to path CPE327-Project that cloned<br/>
   $ `docker-compose down`<br/>
-- Start all service (Deployment by step required)<br/>
+- <b>Start all service </b>(Deployment by step required)<br/>
   $ `docker-compose up -d`<br/>
-- Configure Container<br/>
+- <b>Configure Container</b><br/>
   $ `docker exec -it {ContainerName} sh` <br/>
 
 ## Users for Test
@@ -87,9 +87,9 @@ server {
    http://{your-domainName.com}<br/>
    
 ### SSL Certification
-- Installing Certbot <br/>
+- <b>Installing Certbot</b> <br/>
    $ `sudo apt install certbot python3-certbot-nginx` <br/>
-- Obtaining an SSL Certificate<br/>
+- <b>Obtaining an SSL Certificate</b><br/>
    $ `sudo certbot --nginx -d [your-domainName.com]`<br/>
 This runs certbot with the --nginx plugin, using -d to specify the domain names we’d like the certificate to be valid for.<br/>
 If this is your first time running certbot, you will be prompted to enter an email address and agree to the terms of service. After doing so, certbot will communicate with the Let’s Encrypt server, then run a challenge to verify that you control the domain you’re requesting a certificate for.<br/>
@@ -107,7 +107,7 @@ Select the appropriate number [1-2] then [enter] (press 'c' to cancel):
 ```
 Select your choice then hit `ENTER.` The configuration will be updated, and Nginx will reload to pick up the new settings. `certbot` will wrap up with a message telling you the process was successful and where your certificates are stored:<br/>
 
-- And then go to web site with SSL Certificate <br/>
+- <b>And then go to web site with SSL Certificate</b> <br/>
    https://{your-domainName.com}
    
 
