@@ -4,7 +4,7 @@ CPE327 | Software Engineering Project <br/>
 <b>DEMO : https://admission.kmutt.me</b><br/>
 
 ### Cloud Specification 
-| Requirement | Value |
+| Requirement | Specification |
 | :---: | :---: |
 | Operating System | Ubuntu 20.04 |
 | vCPUs | >= 2 cores |
