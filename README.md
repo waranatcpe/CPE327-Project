@@ -32,10 +32,7 @@ $ `ls ./deployment.sh`<br/>
 $ `sh ./deployment.sh`<br/>
 if error occurred about permission. You can run this command `chmod +x ./deployment.sh` and run this command again `./deployment.sh` <br/>
 
-7. Create environment file for laravel<br/>
-$ `cp ./envfile ./src/.env`<br/>
-
-8. Open website<br/>
+7. Open website<br/>
 http://localhost:8888 or http://ipAddr:8888<br/>
 
 ## User for Test
