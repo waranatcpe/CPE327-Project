@@ -11,7 +11,7 @@ CPE327 | Software Engineering Project <br/>
 | RAM | 2 GB or above |
 | Storage Disk | 10GB or above |
 
-- ``` If you use Docker Desktop in windows you can start at step 2 ```
+- ``` If you use Docker Desktop in windows you can start at step 3 ```
 
 1. Install Docker<br/>
 $ `sudo apt update` <br/>
