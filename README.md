@@ -26,4 +26,4 @@ if error occurred about permission. You can run this command `chmod +x ./deploym
 $ `cp ./envfile ./src/.env`<br/>
 
 8. Open website<br/>
-http://<your-ipAddress>:8888<br/>
+http://your-ipAddress:8888<br/>
