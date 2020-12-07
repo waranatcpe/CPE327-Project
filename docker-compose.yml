@@ -3,7 +3,7 @@ version: '3'
 services:
     site:
       build:
-       context: .
+       context: ./build
        dockerfile: nginx.dockerfile
       container_name: nginx
       restart: always
@@ -17,7 +17,7 @@ services:
 
     php:
      build:
-       context: .
+       context: ./build
        dockerfile: php.dockerfile
      container_name: php
      restart: always
