@@ -40,3 +40,28 @@ You can register on register page<br/>
 
 `Department`<br/>
 You can register on register page and then use admin user for change role to department
+
+## Reverse Proxy with nginx
+if you want to publish to port 80 you can install nginx for publish<br/>
+   $ `apt install -y nginx` <br/>
+Change virtualhost file and use reverse proxy<br/>
+   $ `nano /etc/nginx/sites-available/default `<br/>
+And then clean this file and use this config code instead<br/>
+`
+server {
+    server_name <your-domainName>;
+
+    location / {
+        proxy_pass http://localhost:8888;
+        proxy_set_header Host $host;
+        proxy_set_header X-Real-IP $remote_addr;
+        proxy_set_header X-Forwarded-For $proxy_add_x_forwarded_for;
+        proxy_set_header X-Forwarded-Proto $scheme;
+    }
+}
+` <br/>
+And reload nginx <br/>
+   $ `nginx -t && nginx -s reload` <br/>
+Open website<br/>
+   http://<your-ipAddress><br/>
+
