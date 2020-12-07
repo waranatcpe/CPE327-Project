@@ -3,7 +3,7 @@
 CPE327 | Software Engineering Project <br/>
 <b>DEMO : https://admission.kmutt.me</b><br/>
 
-``` If you use Docker Desktop in windows you can start at step 2 ```
+- ``` If you use Docker Desktop in windows you can start at step 2 ```
 
 | Requirement | Value |
 | :---: | :---: |
