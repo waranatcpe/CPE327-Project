@@ -113,7 +113,7 @@ Select your choice then hit `ENTER.` The configuration will be updated, and Ngin
 
 ## Group Members
 | No. | Name | Student ID | Email |
-| :---: | :---: | :---: | :---: |
+| :---: | :--- | :---: | :--- |
 | 1. | KAMIN PRAKOB | 61070501008 | kamin.pum555@mail.kmutt.ac.th | 
 | 2. | JIRAYU RUNGRUENG | 61070501012 | jirayu.star@mail.kmutt.ac.th | 
 | 3. | CHINNAGRIT BUTBUMRUNG | 61070501016 | chinnagrit.bt@mail.kmutt.ac.th |
