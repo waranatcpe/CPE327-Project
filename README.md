@@ -3,6 +3,13 @@
 CPE327 | Software Engineering Project <br/>
 <b>DEMO : https://admission.kmutt.me</b><br/>
 
+| Requirement | Value |
+| :---: | :---: |
+| Operating System | Ubuntu 20.04 |
+| vCPUs | >= 2 cores |
+| RAM | >= 2 GB |
+| Storage Disk | >= 10GB |
+
 1. Install Docker<br/>
 $ `apt update` <br/>
 $ `apt install -y docker.io` <br/>
