@@ -1,7 +1,7 @@
 
 ## Active Recruitment Registration System KMUTT
 CPE327 | Software Engineering Project <br/>
-<b>DEMO : https://admission.kmutt.me<b><br/>
+<b>DEMO : https://admission.kmutt.me</b><br/>
 
 1. Install Docker<br/>
 $ `apt update` <br/>
