@@ -31,11 +31,13 @@ $ `cd /public/CPE327-Project` or `cd {path}/CPE327-Project`<br/>
 5. Check deployment file <br/>
 $ `ls ./deployment.sh` if exsits will show `deployment.sh`<br/> 
 
-   if error occurred you can deployment with manual way. Follow this command `docker-compose up -d` and then copy environment file for laravel `cp ./.env-example ./src/.env` and then change owner for access file with `docker exec php chown -R laravel:laravel /var/www/html`  <br/>
-
 6. Deployment<br/>
 $ `sudo sh ./deployment.sh`<br/>
 if error occurred about permission. You can run this command `chmod +x ./deployment.sh` and run this command again `./deployment.sh` <br/>
+if you use Docker desktop in windows or error occurred you can deployment with manual way. 
+- Follow this command `docker-compose up -d` 
+- and then copy environment file for laravel `cp ./.env-example ./src/.env` 
+- and then change owner for access file with `docker exec php chown -R laravel:laravel /var/www/html`  <br/>
 
 7. Open website<br/>
 http://localhost:8888 or http://ipAddr:8888<br/>
