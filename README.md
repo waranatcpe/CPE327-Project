@@ -1,4 +1,4 @@
-# Active Recruitment Admission KMUTT
+# Active Recruitment Admission KMUTT CPE327-Project
 Active Recruitment System
 
 1. Clone this repository
@@ -14,5 +14,4 @@ if error you should run command following below
 chmod +x ./deployment.sh
 
 5. Open web site 
-http://<your-ip>:8888
-# CPE327-Project
+http://your-ip:8888
